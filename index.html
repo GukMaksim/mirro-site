@@ -2,6 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="James Mirro - Professional Photographer specializing in Wedding, Sports, and Portrait Photography" />
+    <meta name="keywords" content="photography, photographer, wedding photography, sports photography, portrait photography" />
+    <meta name="author" content="James Mirro" />
+    <meta name="theme-color" content="#3A5F56" />
+    <meta property="og:title" content="James Mirro Photography" />
+    <meta property="og:description" content="Professional photography services by James Mirro" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jamesmirro.com" />
+    <meta property="og:image" content="/src/assets/hero-img.jpg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -9,17 +19,15 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Source Serif Pro:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mirro</title>
-  </head>
+    <title>James Mirro Photography | Professional Photographer</title>
   <body>
     <!-- Header -->
     <div class="container">
       <header
-        class="w-full px-6 py-4 flex items-center justify-between relative z-10"
+        class="w-full px-6 py-4 flex items-center justify-between relative"
       >
         <div class="text-xl font-bold text-primary">
           <svg
@@ -50,7 +58,7 @@
 
           <!-- Cart Button -->
           <button
-            class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-orange-600 flex items-center gap-2"
+            class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-red-600 flex items-center gap-2"
           >
             <!-- Shopping Cart Icon -->
             <svg
@@ -96,7 +104,7 @@
         <!-- Mobile Menu -->
         <div
           id="mobile-menu"
-          class="absolute top-full left-0 w-full bg-white border-t hidden flex flex-col gap-4 p-6 md:hidden z-50 shadow-lg"
+          class="absolute top-full left-0 w-full bg-white border-t hidden flex flex-col gap-4 p-6 md:hidden z-30 shadow-lg"
         >
           <a href="#" class="hover:text-primary">Presets</a>
           <a href="#" class="hover:text-primary">Prints</a>
@@ -107,7 +115,7 @@
       </header>
     </div>
     <!-- Hero Section -->
-    <section class="bg-stone-100 relative overflow-hidden">
+    <section class="bg-stone-100 relative overflow-hidden z-10">
       <!-- Радіальний градієнт -->
       <div
         class="absolute w-[723px] h-[813px]"
@@ -135,10 +143,11 @@
         "
       ></div>
       <div class="container px-6 py-12 md:py-20 relative overflow-hidden">
-        <div class="flex flex-col md:flex-row items-center gap-8 md:gap-16 relative z-10">
+        <div
+          class="flex flex-col md:flex-row items-center gap-8 md:gap-16 relative z-10"
+        >
           <!-- Left Content -->
-          <div class="w-full md:w-1/2 space-y-6 ">
-
+          <div class="w-full md:w-1/2 space-y-6">
             <h1
               class="text-4xl md:text-5xl font-normal text-primary"
               style="font-family: 'Source Serif Pro', 'sans-serif'"
@@ -215,14 +224,15 @@
           <!-- Right Image -->
           <div class="w-full md:w-1/2">
             <div class="relative">
-              <!-- <div class="absolute inset-0 bg-primary/20 rounded-2xl transform rotate-3 scale-105"></div> -->
               <img
                 src="/src/assets/hero-img.jpg"
-                alt="James Mirro Photographer"
+                alt="James Mirro - Professional Photographer"
                 class="w-full h-auto rounded-2xl shadow-lg relative z-10"
                 width="600"
                 height="400"
-                loading="eager"
+                loading="lazy"
+                decoding="async"
+                fetchpriority="high"
               />
             </div>
           </div>
@@ -233,13 +243,13 @@
     <section class="bg-white relative overflow-hidden">
       <!-- Радіальний градієнт -->
       <div
-        class="absolute w-[806px] h-[663px]"
+        class="absolute w-[723px] h-[813px]"
         style="
-          bottom: -400px;
+          bottom: -500px;
           left: -300px;
           background: radial-gradient(
             circle,
-            rgba(58, 95, 86, 0.47) 0%,
+            rgba(58, 95, 86, 0.55) 0%,
             rgba(58, 95, 86, 0) 70%
           );
           z-index: 1;
@@ -401,7 +411,7 @@
 
           <!-- Service Card 4 -->
           <div
-            class="flex flex-col bg-stone-100 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300  cursor-pointer"
+            class="flex flex-col bg-stone-100 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer"
             style="animation-delay: 0.6s"
           >
             <div
@@ -441,7 +451,7 @@
 
           <!-- Service Card 5 -->
           <div
-            class="flex flex-col bg-stone-100 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300  cursor-pointer"
+            class="flex flex-col bg-stone-100 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer"
             style="animation-delay: 0.8s"
           >
             <div
@@ -481,7 +491,7 @@
 
           <!-- Service Card 6 -->
           <div
-            class="flex flex-col bg-stone-100 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300  cursor-pointer"
+            class="flex flex-col bg-stone-100 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer"
             style="animation-delay: 1s"
           >
             <div
@@ -521,7 +531,7 @@
 
           <!-- Service Card 7 -->
           <div
-            class="flex flex-col bg-stone-100 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300  cursor-pointer"
+            class="flex flex-col bg-stone-100 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer"
             style="animation-delay: 1s"
           >
             <div
@@ -563,7 +573,63 @@
     </section>
 
     <!-- Section Preset Store -->
-    <section class="bg-stone-100">Preset Store</section>
+    <section class="bg-stone-100 relative overflow-hidden">
+      <div class="container px-6 py-12 md:py-20 relative z-10">
+        <div class="text-center mb-12">
+          <!-- Zigzag decorative element -->
+          <div class="flex justify-center mb-3">
+            <svg
+              class="mx-auto mb-2"
+              width="160"
+              height="19"
+              viewBox="0 0 100 10"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="0,10 10,0 20,10 30,0 40,10 50,0 60,10 70,0 80,10 90,0 100,10"
+                stroke="black"
+                stroke-width="1"
+                fill="none"
+              />
+            </svg>
+          </div>
+          <h2
+            class="text-2xl md:text-3xl font-normal text-red-600 mb-4"
+            style="font-family: 'Source Serif Pro', 'sans-serif'"
+          >
+            Preset Store
+          </h2>
+          <p class="text-gray-700 max-w-lg mx-auto mb-10">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique. Duis cursus, mi quis
+            viverra ornare, eros dolor interdum nulla.
+          </p>
+        </div>
+        <div class="text-center ">
+          <a
+                href="#"
+                class="mt-4 inline-flex items-center text-primary font-medium hover:underline group"
+              >
+                Preset store
+                <svg
+                  class="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </a>
+        </div>
+      </div>
+    </section>
 
     <script type="module" src="/src/main.js"></script>
   </body>
