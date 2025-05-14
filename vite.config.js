@@ -13,15 +13,6 @@ export default defineConfig({
         drop_debugger: true
       }
     },
-    // Розділення коду для кращої продуктивності
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          vendor: ['vue', 'vue-router'],
-          utils: ['./src/utils']
-        }
-      }
-    },
     // Зменшення розміру збірки
     chunkSizeWarningLimit: 600,
     cssCodeSplit: true
