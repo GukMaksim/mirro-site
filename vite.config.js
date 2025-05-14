@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import { resolve } from 'path'
 
 export default defineConfig({
+  base: '/mirro-site/',
   root: '.',
   build: {
     // Оптимізація збірки
