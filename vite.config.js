@@ -5,14 +5,6 @@ export default defineConfig({
   base: '/mirro-site/',
   root: '.',
   build: {
-    // Оптимізація збірки
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true,
-        drop_debugger: true
-      }
-    },
     // Зменшення розміру збірки
     chunkSizeWarningLimit: 600,
     cssCodeSplit: true
