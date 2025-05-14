@@ -29,8 +29,10 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+      - name: Debug artifact path
+        run: ls -la ./dist  # Debugging step to ensure the directory exists
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2  # Updated to v2
         with:
           path: ./dist
 
