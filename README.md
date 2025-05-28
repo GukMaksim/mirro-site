@@ -1,5 +1,5 @@
 # Mirro Site
-![Ілюстрація до проекту](https://github.com/jon/coolproject/raw/master/image/image.png)
+![Ілюстрація до проекту](https://github.com/GukMaksim/mirro-site/Screenshot.jpg)
 
 ## Опис проекту
 
