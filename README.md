@@ -1,4 +1,5 @@
 # Mirro Site
+![Ілюстрація до проекту](https://github.com/jon/coolproject/raw/master/image/image.png)
 
 ## Опис проекту
 
