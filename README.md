@@ -1,5 +1,5 @@
 # Mirro Site
-![Ілюстрація до проекту](https://github.com/GukMaksim/mirro-site/tree/main/Screenshot.jpg)
+![Screenshot](https://github.com/user-attachments/assets/7a259734-bbd2-4e05-bbb7-e2a775e61990)
 
 ## Опис проекту
 
